@@ -47,13 +47,10 @@ With the layers going deeper, features learned by them become more and more abst
 Layer1<br>
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer1.png" width = "600"><br>
 Layer2<br>
-
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer2.png" width = "600"><br>
 Layer3<br>
-
-<img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png" width = "600"><br>
 Fully connected layer1<br>
-
 <img src="https://github.com/hedongya/OCR/blob/master/results/fc1.png" width = "600">
 <br>
 <br>
