@@ -2,7 +2,7 @@
 
 OCR for Baidu competition<br>
 Environment requirement:<br> 
-tensorflow 1.1.0, python 2.7<br>
+>>>tensorflow 1.1.0, python 2.7<br>
 This work is based on model from Peiwen Wang whose excellent work (https://github.com/ypwhs/baiduyun_deeplearning_competition) is carried out on keras. Thanks to him sincerely.  
 
 # Contents
