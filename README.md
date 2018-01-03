@@ -1,6 +1,6 @@
 # Optical Character Recognition
 
-OCR for Baidu competition<br>
+OCR for Baidu competition (level one)<br>
 Environment requirements:<br>
 >**tensorflow 1.1.0, python 2.7**<br>
 
