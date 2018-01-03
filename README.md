@@ -16,7 +16,7 @@ This work is based on model from Peiwen Wang whose excellent work (https://githu
 
 ------------------------------------------------------------------------------------------------------------------------------
 # Training datａ
-Training data have 100,000 pictures including characters from 0123456789+-*() with **different length** as pictures below show.The label format, for example, to the first training picture, is **(7+5)+4 16**. You can download data here https://pan.baidu.com/s/1geT4z9x
+Training data have 100,000 pictures including characters from 0123456789+-*() with **different length** as pictures below show.The label format, for example, to the first training picture, is **(7+5)+4 16**. You can download data here https://pan.baidu.com/s/1geT4z9x , keep in mind that the label file is inside the unpacked folder.
 
  <img src="https://github.com/hedongya/OCR/blob/master/results/image.png" width = "600">
 <br>
