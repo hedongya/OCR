@@ -1,7 +1,7 @@
 # Optical Character Recognition
 
-  OCR for Baidu competition
-  Environment requirement:
+OCR for Baidu competition<br>
+Environment requirement:<br>
 >tensorflow 1.1.0, python 2.7<br>
 
 This work is based on model from Peiwen Wang whose excellent work (https://github.com/ypwhs/baiduyun_deeplearning_competition) is carried out on keras. Thanks to him sincerely.  
@@ -16,7 +16,7 @@ This work is based on model from Peiwen Wang whose excellent work (https://githu
 
 ------------------------------------------------------------------------------------------------------------------------------
 # Training datａ
-Train data has `100,000` pictures including characters from 0123456789+-*() with different length as below picture shows.The label format, for example, to the first training picture, is (7+5)+4 16
+Train data has ＊＊100,000＊＊ pictures including characters from 0123456789+-*() with different length as below picture shows.The label format, for example, to the first training picture, is (7+5)+4 16
 
  <img src="https://github.com/hedongya/OCR/blob/master/results/image.png" width = "600">
 
