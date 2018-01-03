@@ -21,8 +21,8 @@ Train data has  **100,000** pictures including characters from 0123456789+-*() w
  <img src="https://github.com/hedongya/OCR/blob/master/results/image.png" width = "600">
 
 # Model
-<font color=gray>family</font>
-
+<font color=#00ffff>family</font>
+<font color=#00ffff size=3>null</font>
 The neural network incluing convolution network,rnn(GRU) and CTC (Connectionist Temporal Classifier) as picture below shows.
 There are three convolution modules, every modules has two convolution layers and a max_pool layer. [3,3] kernel and [1,1] stride are used behind every convolution layers. [2,2] kernel and [2,2] stride are used by max_pool layer. What's more, learning features by different conv modules are outputted.<br><br>
  <img src="https://github.com/hedongya/OCR/blob/master/results/Graph.png" width = "600"><br>
