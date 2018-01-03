@@ -25,8 +25,8 @@ There are three convolution modules, every modules has two convolution layers an
 # Loss & accuracy
 As we can see, after about 2.5h, there is a sharp ｄrop of CTCloss, meanwhile the training and validation accuracy turn to be around 1.
 
-<img src="https://github.com/hedongya/OCR/blob/master/results/CTCloss.png" width = "600",>
-<img src="https://github.com/hedongya/OCR/blob/master/results/acc.png" width = "600" hight = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/CTCloss.png" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/acc.png" width = "600" height = "50">
 <img src="https://github.com/hedongya/OCR/blob/master/results/seqPredic.png" width = "600">
 
 
