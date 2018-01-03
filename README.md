@@ -21,6 +21,7 @@ Training data have 100,000 pictures including characters from 0123456789+-*() wi
  <img src="https://github.com/hedongya/OCR/blob/master/results/image.png" width = "600">
 <br>
 <br>
+
 # Model
 
 The neural network includes conv network,RNN(GRU) and CTC (Connectionist Temporal Classifier) as picture below shows.
