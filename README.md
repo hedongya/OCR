@@ -26,23 +26,29 @@ There are three convolution modules, every modules has two convolution layers an
 
 Training results
 =================
-![image](https://github.com/hedongya/OCR/blob/master/results/CTCloss.png)
-![image](https://github.com/hedongya/OCR/blob/master/results/acc.png)
-![image](https://github.com/hedongya/OCR/blob/master/results/seqPredic.png)
+<img src="https://github.com/hedongya/OCR/blob/master/results/CTCloss.png" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/acc.png" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/seqPredic.png" width = "600">
+
+
 
 As we can see, after 2.5h, there is a sharp ｄrop of CTCloss and the training and validation accuracy turn to be around 1.
 
 Features learned by different layers
 =====================================
-![image](https://github.com/hedongya/OCR/blob/master/results/featureLayer1.png)
-![image](https://github.com/hedongya/OCR/blob/master/results/featureLayer2.png)
-![image](https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png)
-![image](https://github.com/hedongya/OCR/blob/master/results/fc1.png)
+<img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer1.png" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer2.png" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/fc1.png" width = "600">
+
+
 
 Weights and biases distribution
 ================================
-![image](https://github.com/hedongya/OCR/blob/master/results/distributions.png)
-![image](https://github.com/hedongya/OCR/blob/master/results/history.png)
+<img src="https://github.com/hedongya/OCR/blob/master/results/distributions.pn" width = "600">
+<img src="https://github.com/hedongya/OCR/blob/master/results/history.png" width = "600">
+
+
 
 
 
