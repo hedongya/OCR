@@ -6,7 +6,7 @@ python 2.7
 
 This work is based on model from Peiwen Wang whose excellent work (https://github.com/ypwhs/baiduyun_deeplearning_competition) is carried out on keras. Thanks to him sincerely.  
 
-Training data
+Training data 
 ＝＝＝＝＝＝＝＝＝
 
 Train data has 100,000 pictures including characters from 0123456789+-*() with different length as below picture shows.
