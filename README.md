@@ -1,10 +1,10 @@
 # Optical Character Recognition
 
- OCR for Baidu competition
+OCR for Baidu competition
 
- Requirement: tensorflow 1.1.0, python 2.7
+Environment requirement: tensorflow 1.1.0, python 2.7
 
- This work is based on model from Peiwen Wang whose excellent work (https://github.com/ypwhs/baiduyun_deeplearning_competition) is carried out on keras. Thanks to him sincerely.  
+This work is based on model from Peiwen Wang whose excellent work (https://github.com/ypwhs/baiduyun_deeplearning_competition) is carried out on keras. Thanks to him sincerely.  
 
 # Contents
 * Train data
@@ -27,7 +27,7 @@ There are three convolution modules, every modules has two convolution layers an
 
 
 
-# Training results
+# Loss & accuracy
 As we can see, after 2.5h, there is a sharp ｄrop of CTCloss and the training and validation accuracy turn to be around 1.
 
 <img src="https://github.com/hedongya/OCR/blob/master/results/CTCloss.png" width = "600">
