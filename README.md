@@ -27,10 +27,10 @@ Features learned by different layers.
 ![image](https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png)
 ![image](https://github.com/hedongya/OCR/blob/master/results/fc1.png)
 
-
+Weights and biases distribution
 ![image](https://github.com/hedongya/OCR/blob/master/results/distributions.png)
 ![image](https://github.com/hedongya/OCR/blob/master/results/history.png)
-Weights and biases distribution
+
 
 
 
