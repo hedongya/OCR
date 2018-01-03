@@ -1,4 +1,5 @@
 # OCR
+# OCR
 OCR for Baidu competition
 Requirement:
 tensorflow 1.1.0
@@ -36,6 +37,7 @@ Features learned by different layers
 ![image](https://github.com/hedongya/OCR/blob/master/results/fc1.png)
 
 Weights and biases distribution
+================================
 ![image](https://github.com/hedongya/OCR/blob/master/results/distributions.png)
 ![image](https://github.com/hedongya/OCR/blob/master/results/history.png)
 
