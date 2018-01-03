@@ -19,7 +19,8 @@ This work is based on model from Peiwen Wang whose excellent work (https://githu
 Training data have 100,000 pictures including characters from 0123456789+-*() with **different length** as pictures below show.The label format, for example, to the first training picture, is **(7+5)+4 16**.
 
  <img src="https://github.com/hedongya/OCR/blob/master/results/image.png" width = "600">
-
+<br>
+<br>
 # Model
 
 The neural network includes conv network,RNN(GRU) and CTC (Connectionist Temporal Classifier) as picture below shows.
@@ -31,11 +32,8 @@ As we can see, after training about 2.5h, there is a sharp ｄrop of CTCloss, me
 <img src="https://github.com/hedongya/OCR/blob/master/results/CTCloss.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/acc.png" width = "600" height = "50">
 <img src="https://github.com/hedongya/OCR/blob/master/results/seqPredic.png" width = "600">
-
-
-
-
-
+<br>
+<br>
 # Features learned by different layers
 Within the same level conv layers,only some of them have learned effective features.  
 With the layers going deeper, features learned by them become more and more abstract.
@@ -44,8 +42,6 @@ With the layers going deeper, features learned by them become more and more abst
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer2.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/fc1.png" width = "600">
-
-
 
 # Weights and biases distributions
 
