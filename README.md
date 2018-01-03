@@ -20,14 +20,16 @@ There are three convolution modules, every modules has two convolution layers an
 ![image](https://github.com/hedongya/OCR/blob/master/results/Graph.png)
 
 
-Following pictures are the training results.
+Training results
+=================
 ![image](https://github.com/hedongya/OCR/blob/master/results/CTCloss.png)
 ![image](https://github.com/hedongya/OCR/blob/master/results/acc.png)
 ![image](https://github.com/hedongya/OCR/blob/master/results/seqPredic.png)
 
 As we can see, after 2.5h, there is a sharp ｄrop of CTCloss and the training and validation accuracy turn to be around 1.
 
-Features learned by different layers.
+Features learned by different layers
+=====================================
 ![image](https://github.com/hedongya/OCR/blob/master/results/featureLayer1.png)
 ![image](https://github.com/hedongya/OCR/blob/master/results/featureLayer2.png)
 ![image](https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png)
