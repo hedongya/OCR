@@ -28,7 +28,7 @@ There are three convolution modules, every modules has two convolution layers an
 
 
 # Loss & accuracy
-As we can see, after 2.5h, there is a sharp ｄrop of CTCloss and the training and validation accuracy turn to be around 1.
+As we can see, after about 2.5h, there is a sharp ｄrop of CTCloss, meanwhile the training and validation accuracy turn to be around 1.
 
 <img src="https://github.com/hedongya/OCR/blob/master/results/CTCloss.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/acc.png" width = "600">
@@ -39,6 +39,8 @@ As we can see, after 2.5h, there is a sharp ｄrop of CTCloss and the training a
 
 
 # Features learned by different layers
+Within the same level conv layers,only some of them have learned effective features.  
+With the layer going deeper, features learned by them become more abstract.
 
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer1.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer2.png" width = "600">
@@ -47,8 +49,8 @@ As we can see, after 2.5h, there is a sharp ｄrop of CTCloss and the training a
 
 
 
-Weights and biases distribution
-================================
+# Weights and biases distribution
+
 <img src="https://github.com/hedongya/OCR/blob/master/results/distributions.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/history.png" width = "600">
 
