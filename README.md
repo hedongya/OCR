@@ -47,7 +47,7 @@ With the layers going deeper, features learned by them become more and more abst
 
 
 
-# Weights and biases distribution
+# Weights and biases distributions
 
 <img src="https://github.com/hedongya/OCR/blob/master/results/distributions.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/history.png" width = "600">
