@@ -11,7 +11,7 @@ Training datａ
 =============
 Train data has 100,000 pictures including characters from 0123456789+-*() with different length as below picture shows.The label to the first training picture is (7+5)+4 16
 
- <img src="https://github.com/hedongya/OCR/blob/master/results/image.png" width = "600">
+ <img src="./blob/master/results/image.png" width = "600">
 
 
 
