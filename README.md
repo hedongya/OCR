@@ -43,8 +43,8 @@ As we can see, after training about 2.5h, there is a sharp ｄrop of CTCloss, me
 Within the same level conv layers,only some of them have learned effective features.  
 With the layers going deeper, features learned by them become more and more abstract.
 <br>
-Layer1<br>
 
+Layer1<br>
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer1.png" width = "600">
 Layer2<br>
 
