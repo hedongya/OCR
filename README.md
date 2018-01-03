@@ -4,6 +4,8 @@ Requirement:
 tensorflow 1.1.0
 python 2.7
 
+This work is based on model from Peiwen Wang whose excellent work is carried out on keras
+
 Training data:
 Train data has 100,000 pictures including characters from 0123456789+-*() with different length as below picture shows.
 ![image](https://github.com/hedongya/OCR/blob/master/results/image.png)
