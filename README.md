@@ -27,6 +27,9 @@ Training data have 100,000 pictures including characters from 0123456789+-*() wi
 The neural network includes conv network,RNN(GRU) and CTC (Connectionist Temporal Classifier) as picture below shows.
 There are three conv modules,layer1,layer2,layer3, every module has two conv layers and a max_pool layer. [3,3] kernel and [1,1] stride are used behind every conv layers. [2,2] kernel and [2,2] stride are used by max_pool layer. What's more, **learning features** by different conv modules are outputted by tensorboard.<br><br>
  <img src="https://github.com/hedongya/OCR/blob/master/results/Graph.png" width = "600"><br>
+ <br>
+ <br>
+ 
 # Loss & accuracy
 As we can see, after training about 2.5h, there is a sharp ｄrop of CTCloss, meanwhile the training and validation accuracy turn to be ｃlose to 1.
 
@@ -35,6 +38,7 @@ As we can see, after training about 2.5h, there is a sharp ｄrop of CTCloss, me
 <img src="https://github.com/hedongya/OCR/blob/master/results/seqPredic.png" width = "600">
 <br>
 <br>
+
 # Features learned by different layers
 Within the same level conv layers,only some of them have learned effective features.  
 With the layers going deeper, features learned by them become more and more abstract.
@@ -43,6 +47,8 @@ With the layers going deeper, features learned by them become more and more abst
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer2.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/featureLayer3.png" width = "600">
 <img src="https://github.com/hedongya/OCR/blob/master/results/fc1.png" width = "600">
+<br>
+<br>
 
 # Weights and biases distributions
 
