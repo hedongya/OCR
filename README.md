@@ -12,7 +12,7 @@ This work is based on model from Peiwen Wang whose excellent work (https://githu
 * Loss & accuracy
 * Features learned by different level layers
 * Weights and biases 
-
+------------------------------------------------------------------------------------------------------------------------------
 # Training datａ
 Train data has 100,000 pictures including characters from 0123456789+-*() with different length as below picture shows.The label format, for example, to the first training picture, is (7+5)+4 16
 
