@@ -25,7 +25,7 @@ Training data have 100,000 pictures including characters from 0123456789+-*() wi
 # Model
 
 The neural network includes conv network,RNN(GRU) and CTC (Connectionist Temporal Classifier) as picture below shows.
-There are three conv modules,layer1,layer2,layer3, every module has two conv layers and a max_pool layer. [3,3] kernel and [1,1] stride are used behind every conv layers. [2,2] kernel and [2,2] stride are used by max_pool layer. What's more, **learning features** by different conv modules are outputted by tensorboard.<br><br>
+There are three conv modules,layer1,layer2,layer3, every module has two conv layers and a max_pool layer. [3,3] kernel and [1,1] strides are used behind every conv layers. [2,2] kernel and [2,2] strides are used by max_pool layer. What's more, **learning features** by different conv modules are outputted by tensorboard.<br><br>
  <img src="https://github.com/hedongya/OCR/blob/master/results/Graph.png" width = "600"><br>
  <br>
  <br>
