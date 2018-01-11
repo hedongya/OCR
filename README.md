@@ -25,7 +25,7 @@ Training dataset has 100,000 pictures including characters from 0123456789+-*() 
 # Model
 
 The neural network includes conv network,RNN(GRU) and CTC (Connectionist Temporal Classifier) as picture below shows.
-There are three conv modules,layer1,layer2,layer3, every module has two conv layers and a max_pool layer. [3,3] kernel and [1,1] strides are used behind every conv layers. [2,2] kernel and [2,2] strides are used by max_pool layer. What's more, **learning features** by different conv modules are outputted by tensorboard.<br><br>
+There are three convnet modules,layer1,layer2,layer3, every module has two convnet layers and a max_pool layer. [3,3] kernel and [1,1] strides are used behind every convnet layers. [2,2] kernel and [2,2] strides are used by max_pool layer. What's more, **learning features** by different convnet modules are outputted by tensorboard.<br><br>
  <img src="https://github.com/hedongya/OCR/blob/master/results/Graph.png" width = "600"><br>
  <br>
  <br>
@@ -40,7 +40,7 @@ As we can see, after training about 2.5h, there is a sharp ｄrop of CTCloss, me
 <br>
 
 # Features learned by different layers
-Within the same level conv layers,only some of them have learned effective features.  
+Within the same level convnet layers,only some of them have learned effective features.  
 With the layers going deeper, features learned by them become more and more abstract.
 <br>
 
